@@ -69,7 +69,7 @@ function Card() {
 }
 */
 
-// --------------Class Components (old method not used now, some shit companies use)------------------------
+// --------------Class Components (old method not used now, some old companies use)------------------------
 
 /*
 class Welcome extends React.Component {
