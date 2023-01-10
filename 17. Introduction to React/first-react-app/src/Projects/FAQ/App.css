@@ -4,17 +4,36 @@
     box-sizing: border-box;
 }
 
+.main-top{
+    text-align: center;
+    margin-block: 10px;
+}
+
 .main{
     text-align: center;
+    margin-inline: 30%;
+}
+
+.second-main{
     padding: 10px;
 }
 
+
 .second-half{
-    padding: 10px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0 0 2px 0 grey;
 }
 
 .first-half-button{
-    background: hwb(263 87% 5%);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;       
+    font-size: medium;
+    font-weight: bolder;
+    border-radius: 5px;
+    text-align: left;
+    background: lavender;
     padding: 20px;
-    width: 510px;
+    width: 100%;
 }
