@@ -25,6 +25,7 @@
     box-shadow: 0 0 2px 0 grey;
 }
 
+
 .first-half-button{
     display: flex;
     justify-content: space-between;
@@ -33,7 +34,7 @@
     font-weight: bolder;
     border-radius: 5px;
     text-align: left;
-    background: lavender;
+    background: #f3f4ff;
     padding: 20px;
     width: 100%;
 }

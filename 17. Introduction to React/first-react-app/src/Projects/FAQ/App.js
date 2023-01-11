@@ -1,4 +1,8 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
 import Section from "./Section";
+
+const question = <FontAwesomeIcon icon={faQuestionCircle}></FontAwesomeIcon>;
 
 function App() {
   return (

@@ -1,3 +1,9 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faChevronDown,
+  faChevronUp,
+  faQuestionCircle,
+} from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
 import { useState } from "react";
 
@@ -13,7 +19,13 @@ function Section(props) {
             className="first-half-button"
           >
             {props.heading}
-            <h4>{isActive ? "-" : "+"} </h4>
+            <h4>
+              {isActive ? (
+                <FontAwesomeIcon icon={faChevronUp}></FontAwesomeIcon>
+              ) : (
+                <FontAwesomeIcon icon={faChevronDown}></FontAwesomeIcon>
+              )}
+            </h4>
           </button>
         </div>
         <div className="second-half">
