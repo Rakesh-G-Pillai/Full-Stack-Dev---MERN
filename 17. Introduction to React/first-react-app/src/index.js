@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
+//import "./index.css";
 // import App from "./App";
 // Changed for new project:
-import App from "./Projects/FAQ/App";
-import Card from "./Components/Card";
+import App from "./Projects/simpleui/App";
+//import Card from "./Components/Card";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
