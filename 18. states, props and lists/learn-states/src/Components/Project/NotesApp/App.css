@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    padding: 5px;
+    border-radius: 50px;
+    margin-top: 5px;
+    border: none;
+}
+
+.save{
+    padding: 0px 5px;
+    border-radius: 10px;
+    margin-right: 8px;
+    border: none;
+}
+
+.dark {
+    background-color: #333;
+    color: #fff;
+    }
+    
+.light {
+    background-color: #fff;
+    color: #333;
+    }
+
+.search{
+    padding: 5px 30px;
+    border-radius: 25px;
+    display: block;
+    width: 100%; 
+    background-color:  #f4eeee;
+    border: none;
+    outline: none;
+}
+
+.search-length{
+    margin: 30px;
+}
+
+::placeholder { 
+    color: black;
+  }
+
+.position{
+    position: relative;
+    bottom: 23px;
+    left: 8px;
+    color: black;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5%;
+    background-color: rgb(9, 161, 159);
+    margin: 30px;
+    width: 300px;
+    height: 200px;
+}
+
+.card_body{
+    width: 300px;
+    height: 150px;
+    background: transparent;
+    border-radius: 5%;
+}
+
+textarea::-webkit-scrollbar{
+    display: none;
+  }
+
+.title{
+    margin-left: 10px;
+    display: block;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
